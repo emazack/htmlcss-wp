@@ -1,3 +1,5 @@
+/* CONTENUTO GENERALE */
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -17,22 +19,44 @@ main::after{
   clear: both;
 }
 
+
+/* CONTENUTO HEADER E NAVIGATION BAR */
 header{
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
   background-repeat: no-repeat;
   background-size: 100%, auto;
+  border: solid;
+  border-width: 12px;
+  border-color: white;
   width: 90%;
   margin: auto;
-  padding: 10px;
   height: 200px;
 }
 
+h1{
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 45px;
+}
+
+h2{
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
 nav{
-  margin-top: 10px;
-  background-color: grey;
-  width: 50%;
-  margin-left: 25%;
-  height: 25px;
+  margin-top: 0;
+  background-color: #6E6660;
+  width: 90%;
+  height: 50px;
+  margin: auto;
 }
 
 .feeds{
