@@ -53,10 +53,26 @@ h2{
 
 nav{
   margin-top: 0;
-  background-color: #6E6660;
+  background-color: #504741;
   width: 90%;
   height: 50px;
   margin: auto;
+  text-align: center;
+}
+
+nav > h3{
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+nav > h3:last-child{
+  border-right: 0;
 }
 
 .feeds{
