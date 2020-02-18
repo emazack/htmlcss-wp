@@ -75,39 +75,33 @@ nav > h3:last-child{
   border-right: 0;
 }
 
-.feeds{
-  margin-top: 10px;
-  background-color: grey;
-  width: 10%;
-  margin-left: 25%;
-  height: 300px;
-  float: left;
+/* CONTENUTO ASIDE-WIDGET */
 
+aside{
+  background-color: white;
+  margin: 5%;
+  width: 20%;
+  float: left;
+}
+
+h4{
+  color: #504741;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  margin: 10%;
+}
+
+h5{
+  color: #99cc33;
+  margin: 12%;
 }
 
 section{
   margin-top: 10px;
-  background-color: grey;
-  width: 28%;
+  background-color: white;
+  width: 39%;
   margin-left: 1%;
   height: 250px;
   float: left;
-
-}
-
-.WIDGET{
-  margin-top: 10px;
-  background-color: grey;
-  width: 10%;
-  margin-left: 1%;
-  height: 400px;
-  float: left;
-}
-
-#W{
-  margin: 10px;
-  background-color: white;
-  padding: 10px;
 }
 
 footer{
