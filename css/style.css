@@ -5,7 +5,10 @@
 }
 
 main{
-  background-color: lightgrey;
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+  height: 100vh;
+  max-width: 100%;
+
 }
 
 main::after{
@@ -15,10 +18,12 @@ main::after{
 }
 
 header{
-  margin-top: 10px;
-  background-color: grey;
-  width: 50%;
-  margin-left: 25%;
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, auto;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
   height: 200px;
 }
 
